@@ -32,7 +32,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://this-is-4-u.web.app/",
+    origin: "https://this-is-4-u.web.app",
     methods: ["GET", "POST"],
   },
 });
